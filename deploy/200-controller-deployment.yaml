@@ -26,7 +26,3 @@ spec:
               secretKeyRef:
                 key: oauth
                 name: oauth-token
-          - name: GIT_KIND
-            value: "stash"
-          - name: GIT_BASE_URL
-            value: "https://bitbucket.beescloud.com"
