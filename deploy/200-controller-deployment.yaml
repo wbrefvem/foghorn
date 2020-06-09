@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: controller
-        image: github.com/foghornci/foghorn/cmd/controller
+        image: ko://github.com/foghornci/foghorn/cmd/controller
         ports:
         - containerPort: 8080
         env:

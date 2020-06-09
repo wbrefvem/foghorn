@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: catcher
-        image: github.com/foghornci/foghorn/cmd/catcher
+        image: ko://github.com/foghornci/foghorn/cmd/catcher
         ports:
         - containerPort: 8080
         env:
