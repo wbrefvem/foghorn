@@ -1,0 +1,7 @@
+apiVersion: foghorn.jenkins.io/v1alpha2
+kind: GitEvent
+metadata:
+  name: example-gitevent
+spec:
+  # Add fields here
+  size: 3

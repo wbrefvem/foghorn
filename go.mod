@@ -3,8 +3,10 @@ module github.com/foghornci/foghorn
 go 1.13
 
 require (
+	github.com/jenkins-x/go-scm v1.5.141
 	github.com/operator-framework/operator-sdk v0.18.0
 	github.com/spf13/pflag v1.0.5
+	github.com/wbrefvem/go-scm v1.5.1-0.20200609021759-dc282b4739f2
 	k8s.io/api v0.18.2
 	k8s.io/apimachinery v0.18.2
 	k8s.io/client-go v12.0.0+incompatible
